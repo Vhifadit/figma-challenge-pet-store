@@ -1,0 +1,12 @@
+body{
+    background-color: #FCEED5;
+}
+.image-dog{
+    width: 944px;
+    height: 693px;
+    top: 84px;
+    left: 530px;
+    opacity: 1;
+    transform: rotate(0deg);
+
+}
