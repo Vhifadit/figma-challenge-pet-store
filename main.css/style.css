@@ -42,6 +42,7 @@ nav{
 }
 a{
     text-decoration: none;
+    color: rgba(1, 1, 33, 0.913);
 }
 .search{
     border-radius:2rem ;
@@ -64,4 +65,19 @@ a{
 .premiere-div{
     padding: 5rem;
     
+}
+.lien-premiere{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}.view{
+    border: solid 1px black;
+    border-radius: 2rem;
+    background-color: rgba(1, 1, 36, 0.936);
+    color: white;
+}
+.intro{
+    border: solid 1px black;
+    border-radius: 2rem;
 }
