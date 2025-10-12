@@ -1,9 +1,12 @@
-body{
+header{
     background-color: #FCEED5;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    height: 37.7rem;
 }
 .image-dog{
     width: 944px;
-    height: 693px;
+    height: 500px;
     top: 84px;
     left: 530px;
     opacity: 1;
@@ -19,4 +22,46 @@ transform: rotate(-25.23 deg);
 opacity: 1;
 border-radius: 99px;
 
+}
+.image-noire-coller-a-la-baniere{
+    width: 634.999970189412;
+height: 634.999970189412;
+top: 268px;
+left: 596px;
+transform: rotate(-9.35 deg);
+opacity: 1;
+border-radius: 99px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin:1rem ;
+    align-items: center;
+    padding-top: 3rem;
+}
+a{
+    text-decoration: none;
+}
+.search{
+    border-radius:2rem ;
+    padding: 0.5rem;
+}
+.btn-join{
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.select{
+    height: auto;
+    width: auto;
+}
+.premiere{
+    display: flex;
+    justify-content:center;
+
+}
+.premiere-div{
+    padding: 5rem;
+    
 }
