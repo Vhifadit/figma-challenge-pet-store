@@ -81,3 +81,25 @@ a{
     border: solid 1px black;
     border-radius: 2rem;
 }
+.haut-images{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.ordonnement-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.images{
+    width: 18rem;
+    height: 28rem;
+    border-radius: 2rem;
+    border: white 2px solid;
+    border-color: rgb(255, 255, 255);
+    padding:1rem;
+    margin: 0.5rem;
+    background-color: white;
+}.premiere-section{
+    background-color: rgb(242, 243, 244);
+}
