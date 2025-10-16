@@ -103,3 +103,50 @@ a{
 }.premiere-section{
     background-color: rgb(242, 243, 244);
 }
+.couleur1{
+    flex: 1;
+    background-color:#003459;
+   position: absolute;
+    top:0;
+    left:0;
+    width: 35%;
+    height: 160%;
+    transform: rotate(20.5deg);
+    border-radius: 2rem 2rem 2rem 2rem ;
+    transform-origin: top;
+    
+}
+.couleur2{
+    flex:2;
+    background-color: #FCEED5;
+    background-position: center;
+    width: 30%;
+    height: 100%;
+
+}
+.couleur3{
+    flex:3;
+    color: #002A48;
+    background-color:#002A48;
+    border-radius: 2rem 2rem 2rem 2rem ;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 160%;
+    transform: rotate(-20.5deg);
+    transform-origin: top;
+    position: absolute;
+    
+}
+.sous-image{
+    display: flex;
+    width: 100%;
+    height: 15rem;
+    position: relative;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+.Femme avec chien{
+    height: 0.5rem;
+    width: 0.5rem;
+}
