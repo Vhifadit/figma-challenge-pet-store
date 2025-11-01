@@ -4,29 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="icon" href="Asset/Frame 39.png">
     <link rel="stylesheet" href="main.css/style.css">
 </head>
 <body>
     <header>
         <nav>
-            <img src="Asset/Frame.png" alt="icon-header">
-            <a href="Home">Home</a>
-            <a href="Category">Category</a>
-            <a href="About">About</a>
-            <a href="Contact">Contact</a>
-            <form action="/recherche" method="GET">
-                <input type="search" name="recherche" placeholder="search something here" class="search" />
-            </form>
-            <a href="inscription" class="btn-join">Join the community</a>
-            <label for="fruit"></label>
-            <select id="fruit" name="fruit" class="select">
-            <option value="VDN"><img src="Asset/Frame (1).png" alt="Bouton-de-selection">VDN</option>
-            <option value="VPN">VPN</option>
-            <option value="ZDN">ZDN</option>
-            <option value="ADN">ADN</option>
-            <option value="BBM">BBM</option>
-            </select>
+            <div class="logo-menu">
+                <img src="Asset/Frame.png" alt="icon-header">
+                <ul>
+                    <li>
+                        <a href="Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="main.css/categorie.html">Category</a>
+                    </li>
+                    <li>
+                        <a href="About">About</a>
+                    </li>
+                    <li>
+                        <a href="Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-action">
+                <form action="/recherche" method="GET">
+                    <input type="search" name="recherche" placeholder="search something here" class="search" />
+                </form>
+                <a href="inscription" class="btn-join">Join the community</a>
+                <label for="fruit"></label>
+                <select id="fruit" name="fruit" class="select">
+                <option value="VDN"><img src="Asset/Frame (1).png" alt="Bouton-de-selection">VDN</option>
+                <option value="VPN">VPN</option>
+                <option value="ZDN">ZDN</option>
+                <option value="ADN">ADN</option>
+                <option value="BBM">BBM</option>
+                </select>
+            </div>
+            
         </nav>
         <section class="premiere">
             <div class="premiere-div">
@@ -40,7 +58,7 @@
                 </p>
                 <div class="lien-premiere">
                     <a href=""class="intro">view Intro</a>
-                    <a href="" class="view">Explore Now</a>
+                    <a href="" class="view br-2">Explore Now</a>
                 </div>
                 
             </div>
