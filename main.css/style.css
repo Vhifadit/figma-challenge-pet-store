@@ -2,6 +2,8 @@
 :root{
     --Color-Dark-Blue:#002A48;
     --Color-Mon-Yellow:#F7DBA7;
+    --Color-Dark-Blue-60:#00528C;
+    --color-Orange-Shine:#FF912C;
 }
 html{
     font-family: 'Roboto' serif;
@@ -84,7 +86,139 @@ html{
     }
 
     main{
-        padding: 1.75rem 8.125rem;
+        padding: 1.75rem 6.125rem;
+        background-color: white;
+
+        .haut-images{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            div a{
+                text-decoration: none;
+                border: 0.09rem var(--Color-Dark-Blue) solid;
+                border-radius: 3.56rem;
+                padding: 0.75rem 1.75rem;
+                gap: 0.5rem;
+            }
+        }
+
+        .ordonnement-images{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+
+
+            .images{
+                width: 17.5rem;
+                padding: 0.4rem;
+                border: rgb(20, 2, 2) 0.05rem solid;
+                background-color: white;
+                box-shadow: 0.5rem 0.5rem 0.5rem 1rem rgba(251, 246, 246, 0.874);
+            }
+        }
+
+        .content{
+            display: flex;
+            border: var(--Color-Dark-Blue) 0.1rem solid;
+            border-radius: 1.25rem;
+            width: 70.75rem;
+            height: 23.625rem;
+            align-items: center;
+            margin: 3rem;
+            background-image: linear-gradient(to right, var(--Color-Dark-Blue) ,var(--Color-Dark-Blue-60),var(--Color-Mon-Yellow));
+
+            .Femme-avec-chien{
+                padding: 2.25rem 1.25rem;
+            }
+            .texte{
+                text-align: right;
+
+                .buttons{
+                    .button1{
+                        border:var(--Color-Dark-Blue) 0.1rem solid;
+                        padding: 0.875em 1.75rem;
+                        border-radius: 3.56rem;
+                    }
+
+                    .button2{
+                         border:var(--Color-Dark-Blue) 0.1rem solid;
+                        padding: 0.875em 1.75rem;
+                        border-radius: 3.56rem;
+                        background-color: var(--Color-Dark-Blue);
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .third-section{
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+            .intro{
+                display: flex;
+                justify-content: space-between;
+
+                .product{
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                }
+
+                button{
+                    border: var(--Color-Dark-Blue) 0.1rem solid;
+                    border-radius: 3.25rem;
+                    background-color: white;
+                    padding: 0.75rem 1.75rem;
+
+                }
+
+            }
+
+            .logo{
+                display: flex;
+                justify-content: space-between;
+                margin: 3rem;
+            }
+
+            .end-etap{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-image: linear-gradient(to right,var(--Color-Mon-Yellow),var(--color-Orange-Shine));
+                margin: 0rem 3rem;
+            }
+
+            .texte1 {
+                margin: 0rem 4rem;
+
+
+                .buttons{
+                    .button1{
+                        border:var(--Color-Dark-Blue) 0.1rem solid;
+                        padding: 0.875em 1.75rem;
+                        border-radius: 3.56rem;
+                    }
+
+                    .button2{
+                         border:var(--Color-Dark-Blue) 0.1rem solid;
+                        padding: 0.875em 1.75rem;
+                        border-radius: 3.56rem;
+                        background-color: var(--Color-Dark-Blue);
+                        color: white;
+                    }
+                }
+
+            }
+               
+
+        }
+        .end.section{
+            
+        }
     }
+
 
 }
