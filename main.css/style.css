@@ -1,3 +1,54 @@
+
+:root{
+    --Color-Dark-Blue:#002A48;
+    --Color-Mon-Yellow:#F7DBA7;
+}
 nav{
-    padding: 75rem 8.12rem;
+    padding: 1.75rem 3.12rem;
+    display: flex;
+    justify-content:space-around;
+    background-color: var(--Color-Mon-Yellow);
+
+    .logo-menu{
+        display: flex;
+
+        ul{
+            display: flex;
+           gap: 3rem;
+           list-style-type: none;
+
+           li a{
+            text-decoration: none;
+            color: var(--Color-Dark-Blue);
+           }
+        }
+    }
+
+    .search-action{
+        display: flex;
+        gap: 0.875rem;
+        align-items: center;
+
+        form input{
+            padding: 0.75rem 1.25rem 0.75rem 1rem;
+            border-radius: 2.875rem;
+            border: white solid 0.12rem;
+        }
+
+        a{
+            text-decoration: none;
+            border: var(--Color-Dark-Blue ) solid 0.12rem;
+            padding: 0.875rem 1.75rem;
+            border-radius: 3.57rem;
+            background-color: var(--Color-Dark-Blue);
+            color: white;
+        }
+
+        select{
+            border: var(--Color-Mon-Yellow) solid 0.12rem;
+            background-color:var(--Color-Mon-Yellow) ;
+        }
+    }
+
+
 }
