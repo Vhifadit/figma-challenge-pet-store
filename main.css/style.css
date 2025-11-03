@@ -256,6 +256,25 @@ html{
             }
             
         }
+
+    }
+    footer{
+        padding: 2.75rem 8.125rem;
+        background-color: #FCEED5;
+
+        .footer1{
+            div{
+                background-color: var(--Color-Dark-Blue);
+                display: flex;
+                justify-content: space-between;
+
+                .formulaire div{
+                    background-color: white;
+                }
+            }
+
+        }
+        
     }
 
 
