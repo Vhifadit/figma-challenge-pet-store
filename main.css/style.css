@@ -203,7 +203,7 @@ html{
                     }
 
                     .button2{
-                         border:var(--Color-Dark-Blue) 0.1rem solid;
+                        border:var(--Color-Dark-Blue) 0.1rem solid;
                         padding: 0.875em 1.75rem;
                         border-radius: 3.56rem;
                         background-color: var(--Color-Dark-Blue);
