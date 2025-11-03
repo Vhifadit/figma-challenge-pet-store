@@ -122,6 +122,50 @@ html{
         
     }
 
+    main{
+
+        .couronne{
+            display: flex;
+            justify-content: space-between;
+            padding: 1.75rem 0rem 1.75rem 8.125rem;
+
+
+                .formulaire{
+
+                    .formulaire1{
+                        border: #003459 solid 0.0625rem;
+                    }
+                }
+           
+
+
+            .grand-mot-image{
+                
+                .mot-image{
+                    display: flex;
+                    justify-content:space-between;
+                    align-items: center;
+                    width: 52rem;
+                    border: #003459 solid 0.0625rem;
+                }
+              
+
+
+               .ordre-img{
+                display: flex;
+                flex-wrap: wrap;
+                width: 60rem;
+               }
+
+
+            }
+
+
+            
+        }
+        
+    }
+
     footer{
         padding: 2.75rem 8.125rem;
         background-color: #FCEED5;
