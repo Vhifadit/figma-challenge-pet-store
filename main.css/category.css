@@ -146,7 +146,25 @@ html{
                     justify-content:space-between;
                     align-items: center;
                     width: 52rem;
-                    border: #003459 solid 0.0625rem;
+
+
+                    .lettre{
+                        display: flex;
+                        align-items: center;
+                        gap: 2rem;
+                    }
+
+                    .button{
+
+                        button{
+                            border: #002A48 solid 0.0625rem;
+                            border-radius: 1rem;
+                            padding: 1rem;
+
+                        }
+                       
+
+                    }
                 }
               
 
@@ -155,6 +173,16 @@ html{
                 display: flex;
                 flex-wrap: wrap;
                 width: 60rem;
+                gap: 1rem;
+                
+
+                .images{
+                    border: solid 0.0625rem var(--Color-white);
+                    max-width: 100%;
+                    max-height: 100%;
+                    box-shadow:1rem 1rem 1rem rgb(249, 246, 246) ;
+
+                }
                }
 
 
