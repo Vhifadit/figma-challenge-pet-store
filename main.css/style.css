@@ -266,7 +266,6 @@ html{
             
             padding-bottom: 2.5rem;
             gap: 2.5rem;
-            border: #CCD1D2 0.0625rem solid;
 
             .frame23{
                 background-color: #003459;
@@ -322,11 +321,15 @@ html{
                     display: flex;
                     gap: 2rem;
                 }
-
             }
                
             
 
+        }
+        .end-end{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         
     }
