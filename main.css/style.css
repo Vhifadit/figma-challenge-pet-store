@@ -215,7 +215,45 @@ html{
                
 
         }
-        .end.section{
+        .end-section{
+            padding: 1.75rem 4rem;
+
+            .end-section-div1{
+                display: flex;
+                justify-content: space-between;
+
+
+                .ornement{
+                    border:white 0.1rem solid;
+                    border-radius: 1.56rem;
+
+                }
+            }
+
+            .image-align{
+                display: flex;
+                justify-content: space-between;
+                gap: 0.5rem;
+
+                .align-three-images{
+                    padding: 0.5rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 0 1 #00000014;
+                    background-color: rgb(247, 252, 250);
+
+                    img{
+                        border-radius: 0.5rem;
+                    }
+
+                    div h3{
+                        display: inline-block;
+                        border: aqua 0.1rem solid;
+                        border-radius: 0.5rem;
+                        background-color: aqua;
+                        color: white;
+                    }
+                }
+            }
             
         }
     }
