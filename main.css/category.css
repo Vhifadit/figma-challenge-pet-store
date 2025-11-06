@@ -133,7 +133,12 @@ html{
                 .formulaire{
 
                     .formulaire1{
-                        border: #003459 solid 0.0625rem;
+                        width: 17.5rem;
+
+                        .partie1{
+                        
+                        
+                        }
                     }
                 }
            
