@@ -1,89 +1,172 @@
+@font-face{
+    font-family: 'gilroy-bold';
+    src:url("../font/gilroy/Gilroy-Bold.ttf") format("truetype");
+    font-weight: 700;
 
+
+}
+@font-face{
+    font-family: 'gilroy-medium';
+    src:url("font/gilroy/Gilroy-Medium.ttf") format("truetype");
+    font-weight:500;
+}
 :root{
     --Color-Dark-Blue:#002A48;
     --Color-Mon-Yellow:#F7DBA7;
     --Color-Dark-Blue-60:#00528C;
     --color-Orange-Shine:#FF912C;
+    --color-secondary-yellow:#FCEED5;
 }
 html{
     font-family: 'Roboto' serif;
+    header{
+        background-color: var(--color-secondary-yellow);
+        height: 38rem;
+        padding: 2.33rem 8.125rem;
+        overflow: hidden;
+    
 
-    nav{
-        padding: 1.75rem 3.12rem;
-        display: flex;
-        justify-content:space-around;
-        background-color: var(--Color-Mon-Yellow);
-
-        .logo-menu{
+        nav{
             display: flex;
-
-            ul{
+            justify-content: space-between;
+            .logo-menu{
                 display: flex;
-            gap: 3rem;
-            list-style-type: none;
+                align-items: center;
 
-            li a{
-                text-decoration: none;
-                color: var(--Color-Dark-Blue);
+                img{
+                    height: 2.5rem;
+                    align-items: start;
+                }
+
+                ul{
+                    display: flex;
+                    gap: 3rem;
+                    list-style-type: none;
+                    justify-content: space-between;
+                    
+
+                    li a{
+                        text-decoration: none;
+                        color: var(--Color-Dark-Blue);
+                        font-family: "gilroy-bold";
+                        font-size: 1rem;
+                    }
+                }
             }
+
+            .search-action{
+                display: flex;
+                gap: 0.875rem;
+                align-items: center;
+
+                form{
+                    display: flex;
+                    gap: 0.5rem;
+                    padding: 0.75rem 1.25rem 0.75rem 1rem;
+                    border-radius: 2.875rem;
+                    background-color: white;
+                    
+
+                    input{
+                        border:none;
+                        font-family:'gilroy-medium';
+                        font-size: 0.875rem;
+                        
+                    }
+
+                    
+                }
+
+                a{
+                    text-decoration: none;
+                    border: var(--Color-Dark-Blue ) solid 0.12rem;
+                    padding: 0.875rem 1.75rem;
+                    border-radius: 3.57rem;
+                    background-color: var(--Color-Dark-Blue);
+                    color: white;
+                }
+            
+                .label{
+                    display: flex;
+
+
+                    select{
+                    border:none;
+                    background-color:var(--color-secondary-yellow);
+                    font-family: 'gilroy-medium';
+                    font-size: 0.875rem; 
+                    }
+                }
+            
             }
         }
-
-        .search-action{
+        .first-section{
             display: flex;
-            gap: 0.875rem;
-            align-items: center;
+            justify-content: space-between;
+            line-height: 1rem;
 
-            form input{
-                padding: 0.75rem 1.25rem 0.75rem 1rem;
-                border-radius: 2.875rem;
-                border: white solid 0.12rem;
+            .first-div{
+                flex: 2.5;
+                padding: 1rem 0rem;
+                h1{
+                    font-family: 'gilroy-bold';
+                    font-size:5rem ;
+                }
+                h2{
+                    font-family: 'gilroy-bold';
+                    font-size:3rem ;
+                }
+                p{
+                    font-family: 'gilroy-medium';
+                    font-size:1rem ;
+                    line-height: 1.5rem;
+                }
+
+                .first-line{
+                    display: flex;
+                    gap: 2rem;
+
+
+                    a{
+                        text-decoration: none;   
+                    }
+                    .intro{
+                            border: solid var(--Color-Dark-Blue) 0.125rem;
+                            color: var(--Color-Dark-Blue);
+                            border-radius: 1.5rem;
+                            padding: 1rem;
+
+                    }
+
+                    .view{
+                        color: white;
+                        background-color: var(--Color-Dark-Blue);
+                        border: solid var(--Color-Dark-Blue) 0.125rem;
+                        border-radius: 1.5rem;
+                        padding: 1rem;
+
+
+                    }
+
+
+                }
+
             }
 
-            a{
-                text-decoration: none;
-                border: var(--Color-Dark-Blue ) solid 0.12rem;
-                padding: 0.875rem 1.75rem;
-                border-radius: 3.57rem;
-                background-color: var(--Color-Dark-Blue);
-                color: white;
-            }
-
-            select{
-                border: var(--Color-Mon-Yellow) solid 0.12rem;
-                background-color:var(--Color-Mon-Yellow) ;
+            .first-div-img{
+                flex: 2;
+                img{
+                    height: 40rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
             }
         }
     }
 
-    .first-section{
-        display: flex;
-        padding:1.75rem 8.125rem;
-        background-color: var(--Color-Mon-Yellow);
-        border-bottom-left-radius: 2rem;
-        border-bottom-right-radius: 2rem;
-        height: 38.5rem;
-        
-        
-        first-div{
-            font-style: bold;
-            font-size: 2.75rem;
-        }
+   
 
-        .first-line{
-            gap: 2rem;
-            a{
-                text-decoration: none;
-            }
-        }
-
-        img{
-            width:59rem;
-            height:40.31rem;
-            margin-left: -10rem;
-        
-        }
-    }
+    
 
     main{
         padding: 1.75rem 6.125rem;

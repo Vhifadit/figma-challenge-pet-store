@@ -80,7 +80,7 @@ html{
             }
             .first-div{
                 font-style: bold;
-                font-size: 0.75rem;
+                font-size: 1rem;
 
                 .first-line{
                     display: flex;
@@ -134,11 +134,6 @@ html{
 
                     .formulaire1{
                         width: 17.5rem;
-
-                        .partie1{
-                        
-                        
-                        }
                     }
                 }
            
