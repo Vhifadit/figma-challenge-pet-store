@@ -106,15 +106,18 @@ html{
             line-height: 1rem;
 
             .first-div{
-                flex: 2.5;
+                flex: 2;
                 padding: 1rem 0rem;
                 h1{
                     font-family: 'gilroy-bold';
-                    font-size:5rem ;
+                    font-size:2rem ;
+                    color: var(--Color-Dark-Blue);
                 }
                 h2{
                     font-family: 'gilroy-bold';
                     font-size:3rem ;
+                    color: var(--Color-Dark-Blue);
+
                 }
                 p{
                     font-family: 'gilroy-medium';
